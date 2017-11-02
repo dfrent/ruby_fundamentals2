@@ -55,10 +55,10 @@
 
 # exercise 5
 
-def greet_backwars (name)
- name = name.reverse	
-end
+# def greet_backwars (name)
+#  name = name.reverse	
+# end
 
-puts "whats your name?"
-user_name = gets.chomp
-puts greet_backwars(user_name * 2)
+# puts "whats your name?"
+# user_name = gets.chomp
+# puts greet_backwars(user_name * 2)
