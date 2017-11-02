@@ -1,7 +1,9 @@
 #intial commit
 
 def double (my_number)
-	my_number * 2
+	return my_number * 2
 end
 
-double(2) 
+# puts " i have #{ double(2) + 2 } cookies"
+
+puts " i have #{ double(6) + 2 } cookies"
