@@ -40,16 +40,25 @@
 
 # exercise 4
 # 
-def user_word_count (letters)
-	if letters.length < 8
-	return "false"
-	else letters.length
-	 return "true"	
-	end
+# def user_word_count (letters)
+# 	if letters.length < 8
+# 	return "false"
+# 	else letters.length
+# 	 return "true"	
+# 	end
+# end
+
+# puts " whats your letter count?"
+# user_word = gets.chomp
+# puts user_word_count(user_word)
+
+
+# exercise 5
+
+def greet_backwars (name)
+ name = name.reverse	
 end
 
-puts " whats your letter count?"
-user_word = gets.chomp
-puts user_word_count(user_word)
-
-
+puts "whats your name?"
+user_name = gets.chomp
+puts greet_backwars(user_name * 2)
