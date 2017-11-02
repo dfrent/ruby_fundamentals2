@@ -1,7 +1,8 @@
-def user_temp(celsius)
-	celsius = (-32) * 0.555
+def user_temp(fah)
+	celsius = (fah-32) * 5/9
 end
 
-puts "whats the temperature in Fahrenheit?"
+
+puts "whats the temperature in celsius?"
 user_input = gets.chomp.to_i
 puts "your temperature is! #{user_temp(user_input)}"
