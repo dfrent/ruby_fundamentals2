@@ -26,14 +26,30 @@
 
 # exercise 3
 
-def is_even? (my_number)
- if my_number.to_i % 2 == 1
-  	return "false"
-  elsif my_number.to_i % 2 == 0
-  	return "true"
-  end
+# def is_even? (my_number)
+#  if my_number.to_i % 2 == 1
+#   	return "false"
+#   elsif my_number.to_i % 2 == 0
+#   	return "true"
+#   end
+# end
+
+#  puts "is your number even? #{is_even?(4)}"
+
+#   puts "is your number even? #{is_even?(15)}"
+
+# exercise 4
+# 
+def user_word_count (letters)
+	if letters.length < 8
+	return "false"
+	else letters.length
+	 return "true"	
+	end
 end
 
- puts "is your number even? #{is_even?(4)}"
+puts " whats your letter count?"
+user_word = gets.chomp
+puts user_word_count(user_word)
 
-  puts "is your number even? #{is_even?(15)}"
+
